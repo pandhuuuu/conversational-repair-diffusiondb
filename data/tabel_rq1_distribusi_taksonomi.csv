@@ -1,0 +1,7 @@
+,Frekuensi,Persentase dari pasangan repair (%),CI95 bawah (%),CI95 atas (%),Persentase dari seluruh pool (%)
+ADD_DETAIL,235.0,43.0,38.8,47.1,40.8
+STYLE_MODIFIER,203.0,37.1,33.1,41.2,35.2
+SUBSTITUTE,308.0,56.3,52.2,60.5,53.5
+SIMPLIFY,74.0,13.5,10.7,16.4,12.8
+REWORD,100.0,18.3,15.0,21.5,17.4
+NOT_REPAIR,29.0,,,,5.0

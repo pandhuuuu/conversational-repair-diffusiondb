@@ -1,0 +1,10 @@
+Tahap,Jumlah
+Rekaman metadata DiffusionDB 2M,2000000
+"Kandidat pasangan berurutan (dt <= 30 menit, maks. 3/pengguna)",27114
+"Lolos filter SBERT awal [0.3, 0.9]",11738
+Pool acak yang dianotasi LLM,2500
+Memiliki label LLM yang valid,2499
+Sim_SBERT >= 0.5 (kriteria proposal),1617
+Lolos filter NSFW (< 0.5),1405
+Pasangan repair (bukan NOT_REPAIR),1336
+Sampel multimodal Tier 2,400

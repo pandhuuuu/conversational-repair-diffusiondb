@@ -1,0 +1,7 @@
+Label,Prevalensi_P1 (%),Prevalensi_P2 (%),Prevalensi_LLM (%),Po (%),Pe (%),Kappa_P1_vs_P2,PABAK,Kategori (Landis-Koch),Kappa_LLM_vs_P1,Kappa_LLM_vs_P2
+ADD_DETAIL,31.0,37.5,45.0,82.5,54.75,0.613,0.65,Substantial,0.584,0.477
+STYLE_MODIFIER,51.5,46.5,37.0,79.0,49.895,0.581,0.58,Moderate,0.633,0.542
+SUBSTITUTE,40.5,28.0,50.5,80.5,54.18,0.574,0.61,Moderate,0.721,0.393
+SIMPLIFY,15.5,24.5,18.0,86.0,67.595,0.568,0.72,Moderate,0.696,0.659
+REWORD,17.0,17.0,19.0,86.0,71.78,0.504,0.72,Moderate,0.594,0.391
+NOT_REPAIR,1.5,5.5,0.0,96.0,93.165,0.415,0.92,Moderate,0.0,0.0
