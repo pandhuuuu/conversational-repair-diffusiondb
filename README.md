@@ -7,7 +7,7 @@
 This repository contains the replication dataset, analytical code, and econometric modeling for the empirical research:
 
 > **"Empirical Analysis of Conversational Repair in Text-to-Image Interaction Using DiffusionDB"**  
-> *Athallah Naufal, et al.*  
+> *Athallah Pandhu Nitisara, et al.*  
 > Department of Information Systems, School of Industrial Engineering, Telkom University, Bandung, Indonesia.
 
 ---
@@ -106,7 +106,7 @@ If you use this dataset, taxonomy, or code in your academic research, please cit
 ```bibtex
 @article{naufal2026conversational,
   title={Empirical Analysis of Conversational Repair in Text-to-Image Interaction Using DiffusionDB},
-  author={Naufal, Athallah and Pembimbing, Dosen},
+  author={Nitisara, Athallah Pandhu and Pembimbing, Dosen},
   journal={Jurnal Nasional Teknik Elektro dan Teknologi Informasi (JNTETI)},
   year={2027},
   publisher={Universitas Gadjah Mada}
