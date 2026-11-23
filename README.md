@@ -17,7 +17,7 @@ This repository contains the replication dataset, analytical code, and econometr
 Users interacting with generative text-to-image systems (such as Stable Diffusion) rarely obtain their desired visual outcome on the first attempt. Consequently, they engage in iterative, multi-turn prompt adjustments. This study conceptualizes this prompt modification cycle through the linguistic framework of **Conversational Repair** (Schegloff et al., 1977).
 
 Using public production logs from the **DiffusionDB 2M** repository:
-1. **RQ1 (Taxonomy & Distribution)**: We classify consecutive prompt revisions ($\Delta t \le 30$ min) into a 5-class operational repair taxonomy (`ADD_DETAIL`, `STYLE_MODIFIER`, `SUBSTITUTE`, `SIMPLIFY`, `REWORD`) using Llama 3.3-70B, validated by double-blind human raters ($n = 200$; $P_o \ge 79.0\%$, PABAK $0.58–0.72$).
+1. **RQ1 (Taxonomy & Distribution)**: We classify consecutive prompt revisions ($\Delta t \le 30$ min) into a 5-class operational repair taxonomy (`ADD_DETAIL`, `STYLE_MODIFIER`, `SUBSTITUTE`, `SIMPLIFY`, `REWORD`) using Google Gemini (Gemini Flash), validated by double-blind human raters ($n = 200$; $P_o \ge 79.0\%$, PABAK $0.58–0.72$).
 2. **RQ2 (Multimodal Alignment Gain)**: We compute image-text representation alignment using **OpenCLIP ViT-B/32** (LAION-2B) on $N = 400$ paired interactions (800 real images) and evaluate alignment gain ($\Delta S = S_2 - S_1$) using Wilcoxon signed-rank testing.
 3. **RQ3 (Econometric Modeling)**: We estimate a multivariate OLS regression model with **Cluster-Robust Standard Errors (CRSE)** clustered by `user_id` to evaluate the marginal association of each repair strategy under technical generation controls ($\Delta\text{Seed}, \Delta\text{CFG}, \Delta\text{Step}, \Delta t$).
 
